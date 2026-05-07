@@ -1,0 +1,39 @@
+/* HEADER */
+.header {
+    background: linear-gradient(90deg, #11998e, #38ef7d);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
